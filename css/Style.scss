@@ -51,20 +51,42 @@ body {
 /*Main*/
 .main-page {
 
-    #main {
+    #Marathon {
         background-size: cover;
         background-image: url('../img/main/main.jpg');
 
         .intro p {
             font-size: 54px;
             line-height: 64px;
-            /*color:#fff;*/
+
+            a.social {
+                line-height: 21px;
+                font-size: 24px;
+                height: 24px;
+                width: 24px;
+                display: block;
+                background-color: #8b9dc3;
+                margin:0 auto;
+            }
+
+            a.social:hover {
+                background-color: #3b5998;
+            }
+
+            i {
+                font-size: 24px;
+                color: #fff;
+            }
         }
     }
 
     #section1 {
+        padding-left: 50px;
+        padding-right: 50px;
+
         h2 {
             text-align: center;
+            color: #fff;
         }
 
         background-size: cover;
@@ -72,23 +94,28 @@ body {
     }
 
     #section2 {
+        padding-left: 50px;
+        padding-right: 50px;
+
         h2 {
             text-align: center;
+            color: #fff;
         }
 
         background-size: cover;
         background-image: url('../img/main/beautifull.jpg');
-    }
 
-    #section3 {
+        .owlCarouselWraper {
+        }
+    }
+    /*#section3 {
         h2 {
             text-align: center;
         }
 
         background-size: cover;
         background-image: url('../img/main/strange.jpg');
-    }
-
+    }*/
     .owlCarouselWraper {
         position: relative;
 
@@ -105,10 +132,11 @@ body {
                 position: relative;
                 padding-left: 5px;
                 padding-right: 5px;
-                 display:flex;
+                display: flex;
+
                 img {
-                    margin:auto;
-                    
+                    width: 28px;
+                    margin: auto;
                 }
             }
         }
@@ -188,5 +216,23 @@ body {
         }
     }
 }
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    display: block;
+    color:#fff;
+    i{
+        color:#dcdcdc;
+    }
+    i:hover{
+        color:#fff;
+    } 
+}
+
+
+
 /*EndMain*/
 @import "_media.scss";
