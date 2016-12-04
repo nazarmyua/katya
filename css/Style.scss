@@ -233,7 +233,8 @@ body {
     }
 
    #section-a-4{
-        background-color: rgb(220,220,220);
+       margin-top: 25px; 
+       background-color: rgb(220,220,220);
         
        .face-box{
            border-radius: 30%;
@@ -243,7 +244,9 @@ body {
        }
        .arrow-block {
            padding-top: 170px;
+           
        }
+     
        .item{
            display:none;
            h5{
@@ -251,11 +254,27 @@ body {
            }
            p{
                color: black;
+               text-align: justify;
            }
        }
        .item.active{
            display: block;
        }
+       .details a{
+           background-color: #4d6a79;
+       }
+        .details a:hover{
+           color: white;
+       }
+        .item-left p, .item-right p{
+            display: none;
+        }
+        .item-left p.little, .item-right p.little{
+            display: block;
+        }
+        .item-center p.little{
+            display: none;
+        }
    }
 /*EndMain*/
 @import "_media.scss";
