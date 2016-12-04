@@ -6052,18 +6052,13 @@ body {
   margin-bottom: 100px;
   font-weight: 400; }
 
+.fa-star, .fa-star-o {
+  color: gold;
+  font-size: 25px;
+  margin-bottom: 5px; }
+
 #section-a-4 {
-  margin-top: 25px;
   background-color: gainsboro; }
-  #section-a-4 h2 {
-    text-align: center;
-    font-size: 40px;
-    color: gray;
-    text-transform: uppercase;
-    margin-top: 100px; }
-  #section-a-4 .border-title {
-    border-bottom: 2px solid gray;
-    margin-bottom: 70px; }
   #section-a-4 .face-box {
     border-radius: 30%; }
   #section-a-4 .col-md-3 .face-box {
@@ -6075,33 +6070,55 @@ body {
     #section-a-4 .item h5 {
       color: black; }
     #section-a-4 .item p {
-      color: black;
-      text-align: justify; }
+      color: black; }
   #section-a-4 .item.active {
     display: block; }
-  #section-a-4 .details a {
-    background-color: #4d6a79; }
-  #section-a-4 .details a:hover {
-    color: white; }
-  #section-a-4 .item-left p, #section-a-4 .item-right p {
-    display: none; }
-  #section-a-4 .item-left p.little, #section-a-4 .item-right p.little {
-    display: block; }
-  #section-a-4 .item-center p.little {
-    display: none; }
 
-#section-a-5 {
-  background-color: gainsboro; }
-  #section-a-5 h2 {
-    text-align: center;
-    font-size: 40px;
-    color: gray;
-    text-transform: uppercase; }
-  #section-a-5 .border-title {
-    border-bottom: 2px solid gray;
-    margin-bottom: 70px; }
-  #section-a-5 .item-img {
-    padding: 10px; }
+#section-a-5 .hover-wraper {
+  padding-left: 10px;
+  padding-right: 10px; }
+  #section-a-5 .hover-wraper > div {
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px; }
+  #section-a-5 .hover-wraper .overlay {
+    top: 0;
+    width: calc(100% - 10px);
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    transition-property: opacity,transform,filter;
+    color: #fff; }
+    #section-a-5 .hover-wraper .overlay img {
+      width: 38px;
+      position: absolute;
+      opacity: 0;
+      top: calc(50% - 19px);
+      left: calc(50% - 19px); }
+    #section-a-5 .hover-wraper .overlay a {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      z-index: 998; }
+    #section-a-5 .hover-wraper .overlay p {
+      color: #fff;
+      z-index: 997;
+      position: absolute;
+      bottom: 0;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      font-size: 18px; }
+
+#section-a-5 .hover-wraper > div:hover .overlay {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5); }
+  #section-a-5 .hover-wraper > div:hover .overlay img {
+    opacity: 1; }
 
 .scrollup {
   width: 40px;
