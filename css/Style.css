@@ -5912,116 +5912,118 @@ body {
     background-color: transparent; }
 
 /*Main*/
-.main-page {
-  /*#section3 {
+#Marathon {
+  background-size: cover;
+  background-image: url("../img/main/main.jpg"); }
+  #Marathon .intro p {
+    font-size: 54px;
+    line-height: 64px; }
+    #Marathon .intro p a.social {
+      line-height: 21px;
+      font-size: 24px;
+      height: 24px;
+      width: 24px;
+      display: block;
+      background-color: #8b9dc3;
+      margin: 0 auto; }
+    #Marathon .intro p a.social:hover {
+      background-color: #3b5998; }
+    #Marathon .intro p i {
+      font-size: 24px;
+      color: #fff; }
+
+#section1 {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-size: cover;
+  background-image: url("../img/main/bigest.jpg"); }
+  #section1 h2 {
+    text-align: center;
+    color: #fff; }
+
+#section2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-size: cover;
+  background-image: url("../img/main/beautifull.jpg"); }
+  #section2 h2 {
+    text-align: center;
+    color: #fff; }
+
+/*#section3 {
         h2 {
             text-align: center;
         }
 
         background-size: cover;
         background-image: url('../img/main/strange.jpg');
-    }*/ }
-  .main-page #Marathon {
-    background-size: cover;
-    background-image: url("../img/main/main.jpg"); }
-    .main-page #Marathon .intro p {
-      font-size: 54px;
-      line-height: 64px; }
-      .main-page #Marathon .intro p a.social {
-        line-height: 21px;
-        font-size: 24px;
-        height: 24px;
-        width: 24px;
-        display: block;
-        background-color: #8b9dc3;
-        margin: 0 auto; }
-      .main-page #Marathon .intro p a.social:hover {
-        background-color: #3b5998; }
-      .main-page #Marathon .intro p i {
-        font-size: 24px;
-        color: #fff; }
-  .main-page #section1 {
-    padding-left: 50px;
-    padding-right: 50px;
-    background-size: cover;
-    background-image: url("../img/main/bigest.jpg"); }
-    .main-page #section1 h2 {
-      text-align: center;
-      color: #fff; }
-  .main-page #section2 {
-    padding-left: 50px;
-    padding-right: 50px;
-    background-size: cover;
-    background-image: url("../img/main/beautifull.jpg"); }
-    .main-page #section2 h2 {
-      text-align: center;
-      color: #fff; }
-  .main-page .owlCarouselWraper {
-    position: relative; }
-    .main-page .owlCarouselWraper .prev, .main-page .owlCarouselWraper .next {
-      position: absolute;
-      z-index: 999;
+    }*/
+.owlCarouselWraper {
+  position: relative; }
+  .owlCarouselWraper .prev, .owlCarouselWraper .next {
+    position: absolute;
+    z-index: 999;
+    height: 100%;
+    top: 0;
+    background-color: transparent; }
+    .owlCarouselWraper .prev a, .owlCarouselWraper .next a {
       height: 100%;
-      top: 0;
-      background-color: transparent; }
-      .main-page .owlCarouselWraper .prev a, .main-page .owlCarouselWraper .next a {
-        height: 100%;
-        display: block;
-        position: relative;
-        padding-left: 5px;
-        padding-right: 5px;
-        display: flex; }
-        .main-page .owlCarouselWraper .prev a img, .main-page .owlCarouselWraper .next a img {
-          width: 28px;
-          margin: auto; }
-    .main-page .owlCarouselWraper .prev:hover,
-    .main-page .owlCarouselWraper .next:hover {
-      background-color: rgba(0, 0, 0, 0.3);
-      transition-duration: .3s;
-      transition-timing-function: ease-out;
-      transition-property: opacity,transform,filter; }
-    .main-page .owlCarouselWraper .left {
-      left: 0; }
-    .main-page .owlCarouselWraper .next {
-      right: 15px; }
-      .main-page .owlCarouselWraper .next a {
-        right: 0; }
-    .main-page .owlCarouselWraper .owl-carousel div.item .overlay {
+      display: block;
+      position: relative;
+      padding-left: 5px;
+      padding-right: 5px;
+      display: flex; }
+      .owlCarouselWraper .prev a img, .owlCarouselWraper .next a img {
+        width: 28px;
+        margin: auto; }
+  .owlCarouselWraper .prev:hover,
+  .owlCarouselWraper .next:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    transition-property: opacity,transform,filter; }
+  .owlCarouselWraper .left {
+    left: 0; }
+  .owlCarouselWraper .next {
+    right: 15px; }
+    .owlCarouselWraper .next a {
+      right: 0; }
+  .owlCarouselWraper .owl-carousel div.item .overlay {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    transition-property: opacity,transform,filter;
+    color: #fff; }
+    .owlCarouselWraper .owl-carousel div.item .overlay img {
+      width: 38px;
+      position: absolute;
+      opacity: 0;
+      top: calc(50% - 19px);
+      left: calc(50% - 19px); }
+    .owlCarouselWraper .owl-carousel div.item .overlay a {
+      position: absolute;
       top: 0;
       width: 100%;
       height: 100%;
-      opacity: 0;
+      display: block;
+      z-index: 998; }
+    .owlCarouselWraper .owl-carousel div.item .overlay p {
+      color: #fff;
+      z-index: 997;
       position: absolute;
-      transition-duration: .3s;
-      transition-timing-function: ease-out;
-      transition-property: opacity,transform,filter;
-      color: #fff; }
-      .main-page .owlCarouselWraper .owl-carousel div.item .overlay img {
-        width: 38px;
-        position: absolute;
-        opacity: 0;
-        top: calc(50% - 19px);
-        left: calc(50% - 19px); }
-      .main-page .owlCarouselWraper .owl-carousel div.item .overlay a {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        display: block;
-        z-index: 998; }
-      .main-page .owlCarouselWraper .owl-carousel div.item .overlay p {
-        color: #fff;
-        z-index: 997;
-        position: absolute;
-        bottom: 0;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        font-size: 18px; }
-    .main-page .owlCarouselWraper div.item:hover .overlay {
-      opacity: 1;
-      background-color: rgba(0, 0, 0, 0.5); }
-      .main-page .owlCarouselWraper div.item:hover .overlay img {
-        opacity: 1; }
+      bottom: 0;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      font-size: 18px; }
+  .owlCarouselWraper div.item:hover .overlay {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .owlCarouselWraper div.item:hover .overlay img {
+      opacity: 1; }
 
 #section-a-1 h2 {
   text-align: center;
@@ -6066,6 +6068,19 @@ body {
       color: black; }
   #section-a-4 .item.active {
     display: block; }
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  display: block;
+  color: #fff; }
+  .scrollup i {
+    color: #dcdcdc; }
+  .scrollup i:hover {
+    color: #fff; }
 
 /*EndMain*/
 @media (max-width: 991px) {
