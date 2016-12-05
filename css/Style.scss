@@ -261,7 +261,21 @@ body {
     margin-bottom: 5px;
 }
 #section-a-4 {
+    margin-top: 25px;
     background-color: rgb(220,220,220);
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        color: gray;
+        text-transform: uppercase;
+        margin-top: 100px;
+    }
+
+    .border-title {
+        border-bottom: 2px solid gray;
+        margin-bottom: 70px;
+    }
 
     .face-box {
         border-radius: 30%;
@@ -284,15 +298,50 @@ body {
 
         p {
             color: black;
+            text-align: justify;
         }
     }
 
     .item.active {
         display: block;
     }
+
+    .details a {
+        background-color: #4d6a79;
+    }
+
+    .details a:hover {
+        color: white;
+    }
+
+    .item-left p, .item-right p {
+        display: none;
+    }
+
+    .item-left p.little, .item-right p.little {
+        display: block;
+    }
+
+    .item-center p.little {
+        display: none;
+    }
 }
 
 #section-a-5 {
+    background-color: rgb(220,220,220);
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        color: gray;
+        text-transform: uppercase;
+    }
+
+    .border-title {
+        border-bottom: 2px solid gray;
+        margin-bottom: 70px;
+    }
+
     .hover-wraper {
         padding-left: 10px;
         padding-right: 10px;
@@ -300,7 +349,8 @@ body {
         & > div {
             position: relative;
             padding-left: 5px;
-            padding-right: 5px;;
+            padding-right: 5px;
+            ;
             margin-bottom: 10px;
         }
 
