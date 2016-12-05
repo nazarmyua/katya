@@ -6054,7 +6054,7 @@ body {
 
 .fa-star, .fa-star-o {
   color: gold;
-  font-size: 25px;
+  font-size: 25px !important;
   margin-bottom: 5px; }
 
 #section-a-4 {
@@ -6075,6 +6075,8 @@ body {
     padding-top: 70px; }
   #section-a-4 .arrow-block {
     padding-top: 170px; }
+    #section-a-4 .arrow-block img {
+      cursor: pointer; }
   #section-a-4 .item {
     display: none; }
     #section-a-4 .item h5 {
