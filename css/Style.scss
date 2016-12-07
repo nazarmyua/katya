@@ -15,7 +15,7 @@ body {
     background: -moz-linear-gradient(top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      background:linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.25) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.25) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
     padding-top: 10px;
     padding-bottom: 10px;
@@ -29,8 +29,9 @@ body {
     }
 
     a {
-    margin-bottom:0;
+        margin-bottom: 0;
     }
+
     .nav > li > a {
 
         @include open;
@@ -62,11 +63,14 @@ body {
 
 #Marathon {
     background-size: cover;
+    background-attachment: fixed;
     background-image: url('../img/main/main.jpg');
 
     .intro p {
-        font-size: 54px;
-        line-height: 64px;
+        font-size: 72px;
+        line-height: 74px;
+        color: #000;
+
 
         a.social {
             line-height: 21px;
@@ -74,16 +78,20 @@ body {
             height: 24px;
             width: 24px;
             display: block;
-            background-color: #8b9dc3;
+            background-color: transparent;
             margin: 0 auto;
         }
 
         a.social:hover {
-            background-color: #3b5998;
+            background-color: transparent;
         }
 
         i {
             font-size: 24px;
+            color: #DFDFDF;
+        }
+
+        a.social:hover i {
             color: #fff;
         }
     }
@@ -93,26 +101,52 @@ body {
     padding-left: 50px;
     padding-right: 50px;
 
-    h2 {
-        text-align: center;
-        color: #fff;
+    .link-wrapper {
+        padding-bottom: 50px;
+
+        a {
+            text-decoration: none;
+            color: #DFDFDF;
+            font-size: 54px;
+            margin-bottom: 50px;
+            text-align: center;
+            text-transform:uppercase;
+        }
+
+        a:hover {
+            color: #fff;
+        }
     }
 
     background-size: cover;
-    background-image: url('../img/main/bigest.jpg');
+    background-attachment: fixed;
+    background-image: url('../img/main/main.jpg');
 }
 
 #section2 {
     padding-left: 50px;
     padding-right: 50px;
 
-    h2 {
-        text-align: center;
-        color: #fff;
+    .link-wrapper {
+        padding-bottom: 50px;
+
+        a {
+            text-decoration: none;
+            color: #DFDFDF;
+            font-size: 54px;
+            margin-bottom: 50px;
+            text-align: center;
+            text-transform:uppercase;
+        }
+
+        a:hover {
+            color: #fff;
+        }
     }
 
     background-size: cover;
-    background-image: url('../img/main/beautifull.jpg');
+    background-attachment: fixed;
+    background-image: url('../img/main/main.jpg');
 
     .owlCarouselWraper {
     }
@@ -237,6 +271,9 @@ body {
 }
 
 #section-a-2 {
+    margin-top: 50px;
+    background-color: gainsboro;
+
     h2 {
         text-align: center;
         font-size: 40px;
@@ -251,8 +288,10 @@ body {
     }
 
     .stars-block {
+        text-align: center;
+
         span {
-            color: gold;
+            color: #fff;
         }
     }
 
@@ -260,19 +299,32 @@ body {
         text-align: justify;
         font-size: 18px;
         color: gray;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         font-weight: 400;
+    }
+
+    ul {
+        padding-left: 15px;
+        list-style-type: disc;
+
+        li {
+            text-align: justify;
+            font-size: 18px;
+            color: gray;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
     }
 }
 
 .fa-star, .fa-star-o {
-    color: gold;
+    color: #fff;
     font-size: 25px !important;
     margin-bottom: 5px;
 }
 
 #section-a-4 {
-    margin-top: 25px;
+    padding-top: 25px;
     background-color: rgb(220,220,220);
 
     h2 {
@@ -431,7 +483,7 @@ body {
     color: #fff;
 
     i {
-        color: #dcdcdc;
+        color: #fff;
     }
 
     i:hover {
@@ -444,7 +496,6 @@ body {
         background: none;
         background-color: transparent;
     }*/
-
     /*.nav > li > a {
         color: #adadad;
     }
@@ -458,10 +509,12 @@ body {
 }
 
 #BiggestMain {
-    background: none;
-    background-color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../img/Biggest.jpg');
 
     p {
+        color: #fff;
         font-size: 54px;
         line-height: 64px;
 
@@ -479,27 +532,29 @@ body {
         }*/
         i {
             font-size: 24px;
-            color: #adadad;
+            color: #fff;
         }
 
         a.social:hover i {
-            color: #000;
+            color: #dcdcdc;
         }
     }
 }
 
-#biggest {
-    background-color: #fff;
+#Biggest {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../img/Biggest.jpg');
 
     h2 {
         text-align: center;
         font-size: 40px;
-        color: #000;
+        color: #fff;
         text-transform: uppercase;
     }
 
     .border-title {
-        border-bottom: 2px solid #000;
+        border-bottom: 2px solid #fff;
         margin-bottom: 70px;
     }
 
@@ -575,7 +630,7 @@ body {
         color: #fff;
 
         i {
-            color: #adadad;
+            color: #fff;
         }
 
         i:hover {
@@ -728,6 +783,20 @@ body {
         }
     }
 }
+
+
+
+
+
+/*BIGGEST MARATHON*/
+.BigSurInternationalMarathon {
+    .section {
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url('../img/Biggest.jpg');
+    }
+}
+/*BIGGEST MARATHON END*/
 
 /*EndMain*/
 @import "_media.scss";
