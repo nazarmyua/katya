@@ -5930,41 +5930,63 @@ body {
 /*Main*/
 #Marathon {
   background-size: cover;
+  background-attachment: fixed;
   background-image: url("../img/main/main.jpg"); }
   #Marathon .intro p {
-    font-size: 54px;
-    line-height: 64px; }
+    font-size: 72px;
+    line-height: 74px;
+    color: #000; }
     #Marathon .intro p a.social {
       line-height: 21px;
       font-size: 24px;
       height: 24px;
       width: 24px;
       display: block;
-      background-color: #8b9dc3;
+      background-color: transparent;
       margin: 0 auto; }
     #Marathon .intro p a.social:hover {
-      background-color: #3b5998; }
+      background-color: transparent; }
     #Marathon .intro p i {
       font-size: 24px;
+      color: #DFDFDF; }
+    #Marathon .intro p a.social:hover i {
       color: #fff; }
 
 #section1 {
   padding-left: 50px;
   padding-right: 50px;
   background-size: cover;
-  background-image: url("../img/main/bigest.jpg"); }
-  #section1 h2 {
-    text-align: center;
-    color: #fff; }
+  background-attachment: fixed;
+  background-image: url("../img/main/main.jpg"); }
+  #section1 .link-wrapper {
+    padding-bottom: 50px; }
+    #section1 .link-wrapper a {
+      text-decoration: none;
+      color: #DFDFDF;
+      font-size: 54px;
+      margin-bottom: 50px;
+      text-align: center;
+      text-transform: uppercase; }
+    #section1 .link-wrapper a:hover {
+      color: #fff; }
 
 #section2 {
   padding-left: 50px;
   padding-right: 50px;
   background-size: cover;
-  background-image: url("../img/main/beautifull.jpg"); }
-  #section2 h2 {
-    text-align: center;
-    color: #fff; }
+  background-attachment: fixed;
+  background-image: url("../img/main/main.jpg"); }
+  #section2 .link-wrapper {
+    padding-bottom: 50px; }
+    #section2 .link-wrapper a {
+      text-decoration: none;
+      color: #DFDFDF;
+      font-size: 54px;
+      margin-bottom: 50px;
+      text-align: center;
+      text-transform: uppercase; }
+    #section2 .link-wrapper a:hover {
+      color: #fff; }
 
 /*#section3 {
         h2 {
@@ -6047,34 +6069,45 @@ body {
   color: white;
   text-transform: uppercase; }
 
-#section-a-2 h2 {
-  text-align: center;
-  font-size: 40px;
-  color: gray;
-  text-transform: uppercase;
-  margin-top: 100px; }
-
-#section-a-2 .border-title {
-  border-bottom: 2px solid gray;
-  margin-bottom: 40px; }
-
-#section-a-2 .stars-block span {
-  color: gold; }
-
-#section-a-2 p {
-  text-align: justify;
-  font-size: 18px;
-  color: gray;
-  margin-bottom: 100px;
-  font-weight: 400; }
+#section-a-2 {
+  margin-top: 50px;
+  background-color: gainsboro; }
+  #section-a-2 h2 {
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    text-transform: uppercase;
+    margin-top: 100px; }
+  #section-a-2 .border-title {
+    border-bottom: 2px solid gray;
+    margin-bottom: 40px; }
+  #section-a-2 .stars-block {
+    text-align: center; }
+    #section-a-2 .stars-block span {
+      color: #fff; }
+  #section-a-2 p {
+    text-align: justify;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 30px;
+    font-weight: 400; }
+  #section-a-2 ul {
+    padding-left: 15px;
+    list-style-type: disc; }
+    #section-a-2 ul li {
+      text-align: justify;
+      font-size: 18px;
+      color: gray;
+      font-weight: 400;
+      margin-bottom: 10px; }
 
 .fa-star, .fa-star-o {
-  color: gold;
+  color: #fff;
   font-size: 25px !important;
   margin-bottom: 5px; }
 
 #section-a-4 {
-  margin-top: 25px;
+  padding-top: 25px;
   background-color: gainsboro; }
   #section-a-4 h2 {
     text-align: center;
@@ -6177,7 +6210,7 @@ body {
   display: block;
   color: #fff; }
   .scrollup i {
-    color: #dcdcdc; }
+    color: #fff; }
   .scrollup i:hover {
     color: #fff; }
 
@@ -6198,9 +6231,11 @@ body {
     }*/ }
 
 #BiggestMain {
-  background: none;
-  background-color: #fff; }
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/Biggest.jpg"); }
   #BiggestMain p {
+    color: #fff;
     font-size: 54px;
     line-height: 64px;
     /*a.social:hover {
@@ -6216,29 +6251,31 @@ body {
       margin: 0 auto; }
     #BiggestMain p i {
       font-size: 24px;
-      color: #adadad; }
+      color: #fff; }
     #BiggestMain p a.social:hover i {
-      color: #000; }
+      color: #dcdcdc; }
 
-#biggest {
-  background-color: #fff; }
-  #biggest h2 {
+#Biggest {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/Biggest.jpg"); }
+  #Biggest h2 {
     text-align: center;
     font-size: 40px;
-    color: #000;
+    color: #fff;
     text-transform: uppercase; }
-  #biggest .border-title {
-    border-bottom: 2px solid #000;
+  #Biggest .border-title {
+    border-bottom: 2px solid #fff;
     margin-bottom: 70px; }
-  #biggest .hover-wraper {
+  #Biggest .hover-wraper {
     padding-left: 10px;
     padding-right: 10px; }
-    #biggest .hover-wraper > div {
+    #Biggest .hover-wraper > div {
       position: relative;
       padding-left: 5px;
       padding-right: 5px;
       margin-bottom: 10px; }
-    #biggest .hover-wraper .overlay {
+    #Biggest .hover-wraper .overlay {
       top: 0;
       width: calc(100% - 10px);
       height: 100%;
@@ -6248,20 +6285,20 @@ body {
       transition-timing-function: ease-out;
       transition-property: opacity,transform,filter;
       color: #fff; }
-      #biggest .hover-wraper .overlay img {
+      #Biggest .hover-wraper .overlay img {
         width: 38px;
         position: absolute;
         opacity: 0;
         top: calc(50% - 19px);
         left: calc(50% - 19px); }
-      #biggest .hover-wraper .overlay a {
+      #Biggest .hover-wraper .overlay a {
         position: absolute;
         top: 0;
         width: 100%;
         height: 100%;
         display: block;
         z-index: 998; }
-      #biggest .hover-wraper .overlay p {
+      #Biggest .hover-wraper .overlay p {
         color: #fff;
         z-index: 997;
         position: absolute;
@@ -6269,12 +6306,12 @@ body {
         padding-bottom: 10px;
         padding-left: 10px;
         font-size: 18px; }
-  #biggest .hover-wraper > div:hover .overlay {
+  #Biggest .hover-wraper > div:hover .overlay {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5); }
-    #biggest .hover-wraper > div:hover .overlay img {
+    #Biggest .hover-wraper > div:hover .overlay img {
       opacity: 1; }
-  #biggest .scrollup {
+  #Biggest .scrollup {
     width: 40px;
     height: 40px;
     position: absolute;
@@ -6282,9 +6319,9 @@ body {
     left: 100px;
     display: block;
     color: #fff; }
-    #biggest .scrollup i {
-      color: #adadad; }
-    #biggest .scrollup i:hover {
+    #Biggest .scrollup i {
+      color: #fff; }
+    #Biggest .scrollup i:hover {
       color: #000; }
 
 .mostbeautiful.custom-nav {
@@ -6390,6 +6427,13 @@ body {
     #mostbeautiful .scrollup i:hover {
       color: #000; }
 
+/*BIGGEST MARATHON*/
+.BigSurInternationalMarathon .section {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/Biggest.jpg"); }
+
+/*BIGGEST MARATHON END*/
 /*EndMain*/
 @media (max-width: 991px) {
   .main-page #section1 {
