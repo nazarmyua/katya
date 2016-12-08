@@ -6492,6 +6492,17 @@ footer {
       font-size: 24px;
       color: #fff; }
 
+/*BLOG*/
+.blog h2 {
+  margin-top: 0; }
+
+.blog .wrap {
+  background-color: gainsboro;
+  padding-bottom: 50px; }
+
+.blog .item {
+  margin-top: 20px; }
+
 /*BIGGEST MARATHON*/
 .BigSurInternationalMarathon .section {
   background-size: cover;
