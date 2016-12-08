@@ -857,7 +857,19 @@ footer {
     }
 }
 
-
+/*BLOG*/
+.blog{
+    h2{
+        margin-top: 0;
+    }
+    .wrap{
+        background-color: gainsboro;
+        padding-bottom: 50px;
+    }
+    .item{
+        margin-top: 20px;
+    }
+}
 /*BIGGEST MARATHON*/
 .BigSurInternationalMarathon {
     .section {
