@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-    
-    <nav class="navbar navbar-default navbar-fixed-top custom-nav mostbeautiful">
+
+    <nav class="navbar navbar-default navbar-fixed-top custom-nav biggest">
         <div class="container">
             <div class="row">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,83 +40,45 @@
         </div><!-- /.container-fluid -->
     </nav>
     <div class="main-page" id="fullpage">
-        <div class="section " id="MostBeautifulMain">
+        <div class="section " id="BiggestMain">
             <div class="intro">
                 <div class="container">
-                    <p class="text-center">mostbeautiful</p>
+                    <p class="text-center">THE BIGGEST</p>
                     <p class="text-center">
-                    <a href="#" class="social btn-default"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></p>
+                        <a href="#" class="social btn-default"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="section" id="MostBeautiful">
+        <div class="section" id="Biggest">
             <div class="intro">
-                    <div class="row">
-                        <div class="col-md-12 col-xs-12">
-                            <h2>What is Lorem Ipsum</h2>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <h2>THE BIGGEST</h2>
 
-                        </div> 
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-xs-4 col-md-offset-4 col-xs-4 border-title">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10 col-xs-12 col-md-offset-1">
-                            <div class="row hover-wraper">
-                                <div class="col-md-4 col-xs-12">
-                                    <img src="/img/article/1/comment/i-1.jpg" class="img-responsive" />
-                                    <div class="overlay">
-                                        <img src="/img/right.png" />
-                                        <a href="#"></a>
-                                        <p>Lorem Ipsum is1</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-xs-12">
-                                    <img src="/img/article/1/comment/i-1.jpg" class="img-responsive" />
-                                    <div class="overlay">
-                                        <img src="/img/right.png" />
-                                        <a href="#"></a>
-                                        <p>Lorem Ipsum is1</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-xs-12">
-                                    <img src="/img/article/1/comment/i-1.jpg" class="img-responsive" />
-                                    <div class="overlay">
-                                        <img src="/img/right.png" />
-                                        <a href="#"></a>
-                                        <p>Lorem Ipsum is1</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-md-offset-2 col-xs-12">
-                                    <img src="/img/article/1/comment/i-1.jpg" class="img-responsive" />
-                                    <div class="overlay">
-                                        <img src="/img/right.png" />
-                                        <a href="#"></a>
-                                        <p>Lorem Ipsum is1</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-xs-12">
-                                    <img src="/img/article/1/comment/i-1.jpg" class="img-responsive" />
-                                    <div class="overlay">
-                                        <img src="/img/right.png" />
-                                        <a href="#"></a>
-                                        <p>Lorem Ipsum is1</p>
-                                    </div>
-                                </div>
-
-                               
-                            </div>
-                        </div>
-                    </div>
-                <a href="#MostBeautifulMain" class="scrollup hidden-xs"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>
                 </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-4 col-md-offset-4 col-xs-4 border-title">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-xs-12 col-md-offset-1">
+                        <div class="row hover-wraper">
+                            <!--<div class="col-md-4 col-xs-12">
+                                <img src="/img/pages/Bigest/1.jpg" class="img-responsive" />
+                                <div class="overlay">
+                                    <img src="/img/right.png" />
+                                    <a href="../marathon/Bigest/BigSurInternationalMarathon.html"></a>
+                                    <p>Big Sur International Marathon</p>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+                <a href="#BiggestMain" class="scrollup hidden-xs"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>
             </div>
-        
+        </div>
     </div>
 
 
@@ -126,9 +88,10 @@
     <!-- FullPage  -->
     <link href="/lib/fullPage/jquery.fullpage.min.css" rel="stylesheet" />
     <script src="/lib/fullPage/jquery.fullpage.min.js"></script>
+    <script src="../lib/fullPage/scrolloverflow.min.js"></script>
     <!-- FullPageEnd -->
     <!-- Fancybox -->
-<!--    <link href="/lib/fancyBox/jquery.fancybox.css" rel="stylesheet" />-->
+    <!--    <link href="/lib/fancyBox/jquery.fancybox.css" rel="stylesheet" />-->
     <!--<script src="/lib/fancyBox/jquery.fancybox.pack.js"></script>-->
     <!-- EndFancybox -->
     <!-- owl.carousel -->
@@ -143,7 +106,8 @@
         $(document).ready(function () {
             $('#fullpage').fullpage({
                 navigation: false,
-                anchors: ['BiggestMain', 'Biggest'],
+                css3:false,
+                //anchors: ['BiggestMain', 'Biggest'],
                 responsiveWidth: 768,
                 afterResponsive: function (isResponsive) {
 
@@ -154,7 +118,7 @@
     <!--  -->
     <script>
         $(document).ready(function () {
-            $(".owl-carousel").each(function() {
+            $(".owl-carousel").each(function () {
                 var owl = $(this);
                 owl.owlCarousel({
                     loop: true,
@@ -178,12 +142,12 @@
                         }
                     }
                 });
-                $(this).parent(".owlCarouselWraper").find(".next a").click(function(e) {
+                $(this).parent(".owlCarouselWraper").find(".next a").click(function (e) {
                     e.preventDefault();
                     console.log(":1");
                     owl.trigger('next.owl.carousel');
                 });
-                $(this).parent(".owlCarouselWraper").find(".prev a").click(function(e) {
+                $(this).parent(".owlCarouselWraper").find(".prev a").click(function (e) {
                     console.log(":2");
                     e.preventDefault();
                     owl.trigger('prev.owl.carousel');
