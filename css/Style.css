@@ -6283,6 +6283,12 @@ body {
     #BiggestMain p a.social:hover i {
       color: #dcdcdc; }
 
+.map iframe {
+  width: 640px;
+  height: 480px;
+  display: block;
+  margin: 0 auto; }
+
 #Biggest {
   background-size: cover;
   background-attachment: fixed;
