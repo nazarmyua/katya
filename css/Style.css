@@ -5947,10 +5947,9 @@ body {
     #Marathon .intro p a.social:hover {
       background-color: transparent; }
     #Marathon .intro p i {
-      font-size: 24px;
-      color: #DFDFDF; }
+      font-size: 24px; }
     #Marathon .intro p a.social:hover i {
-      color: #fff; }
+      color: #000; }
 
 #section1 {
   padding-left: 50px;
@@ -5962,13 +5961,13 @@ body {
     padding-bottom: 50px; }
     #section1 .link-wrapper a {
       text-decoration: none;
-      color: #DFDFDF;
+      color: #333333;
       font-size: 54px;
       margin-bottom: 50px;
       text-align: center;
       text-transform: uppercase; }
     #section1 .link-wrapper a:hover {
-      color: #fff; }
+      color: #000; }
 
 #section2 {
   padding-left: 50px;
@@ -5980,13 +5979,13 @@ body {
     padding-bottom: 50px; }
     #section2 .link-wrapper a {
       text-decoration: none;
-      color: #DFDFDF;
+      color: #333333;
       font-size: 54px;
       margin-bottom: 50px;
       text-align: center;
       text-transform: uppercase; }
     #section2 .link-wrapper a:hover {
-      color: #fff; }
+      color: #000; }
 
 /*#section3 {
         h2 {
@@ -6071,15 +6070,15 @@ body {
 
 #section-a-2 {
   margin-top: 50px;
-  background-color: gainsboro; }
+  background-color: #fbfbfb; }
   #section-a-2 h2 {
     text-align: center;
     font-size: 40px;
-    color: gray;
+    color: #4C4C4C;
     text-transform: uppercase;
     margin-top: 100px; }
   #section-a-2 .border-title {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #4C4C4C;
     margin-bottom: 40px; }
   #section-a-2 .stars-block {
     text-align: center; }
@@ -6088,7 +6087,7 @@ body {
   #section-a-2 p {
     text-align: justify;
     font-size: 18px;
-    color: gray;
+    color: #4C4C4C;
     margin-bottom: 30px;
     font-weight: 400; }
   #section-a-2 ul {
@@ -6097,7 +6096,7 @@ body {
     #section-a-2 ul li {
       text-align: justify;
       font-size: 18px;
-      color: gray;
+      color: #4C4C4C;
       font-weight: 400;
       margin-bottom: 10px; }
 
@@ -6108,16 +6107,16 @@ body {
 
 #section-a-4 {
   padding-top: 25px;
-  background-color: gainsboro;
+  background-color: #fbfbfb;
   min-height: 1500px; }
   #section-a-4 h2 {
     text-align: center;
     font-size: 40px;
-    color: gray;
+    color: #4C4C4C;
     text-transform: uppercase;
     margin-top: 100px; }
   #section-a-4 .border-title {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #4C4C4C;
     margin-bottom: 70px; }
   #section-a-4 .face-box {
     border-radius: 30%; }
@@ -6156,14 +6155,14 @@ body {
     display: none; }
 
 #section-a-5 {
-  background-color: gainsboro; }
+  background-color: #fbfbfb; }
   #section-a-5 h2 {
     text-align: center;
     font-size: 40px;
-    color: gray;
+    color: #4C4C4C;
     text-transform: uppercase; }
   #section-a-5 .border-title {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #4C4C4C;
     margin-bottom: 70px; }
   #section-a-5 .hover-wraper {
     padding-left: 10px;
@@ -6504,13 +6503,53 @@ footer {
   margin-top: 20px; }
 
 /*BIGGEST MARATHON*/
-.BigSurInternationalMarathon .section {
+.Marathon .section {
   background-size: cover;
   background-attachment: fixed;
   background-image: url("../img/Biggest.jpg"); }
 
 /*BIGGEST MARATHON END*/
 /*EndMain*/
+/*Text decorations*/
+.grey {
+  color: grey; }
+
+.brown {
+  color: brown; }
+
+.green {
+  color: green; }
+
+.bold {
+  font-weight: 600; }
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
+  border: 1px solid #fefcfe; }
+
+.ad {
+  height: 400px;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 400px; }
+
+.img-media img {
+  width: 175px; }
+
+.pd20 {
+  padding-bottom: 20px; }
+
+.media-body {
+  text-align: justify;
+  font-size: 18px;
+  color: #4C4C4C;
+  font-weight: 400; }
+
+h3.media-heading {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: bold; }
+
+/*Text decorations end*/
 @media (max-width: 991px) {
   .main-page #section1 {
     padding-left: 35px;
