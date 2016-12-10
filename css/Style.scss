@@ -831,6 +831,7 @@ body {
 
 
 footer {
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 30px;
     background: -moz-linear-gradient(top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
@@ -873,13 +874,51 @@ footer {
 
     .wrap {
         background-color: gainsboro;
-        padding-bottom: 50px;
     }
 
     .item {
         margin-top: 20px;
     }
+
+    .section {
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url('../blog/1/blog-background.jpg');
+    }
+
+    #section-a-1 {
+        h2 {
+            font-weight: 700;
+        }
+    }
+
+    .title-row {
+        padding-top: 20px;
+        background-color: rgba(0,0,0,0.2);
+        padding-bottom: 20px;
+    }
+
+    
 }
+.blog-main {
+        #fullpage {
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url('../blog/blog-1.jpg');
+        }
+         .title-row {
+        padding-top: 20px;
+        background-color: rgba(0,0,0,0.2);
+        padding-bottom: 20px;
+     
+        h2{
+            @include regular;
+            font-weight: 700;
+            font-size: 70px;
+
+        }   
+    }
+    }
 /*BIGGEST MARATHON*/
 .Marathon {
     .section {
