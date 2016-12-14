@@ -2094,7 +2094,7 @@ th {
   text-align: left; }
 
 .table {
-  width: 100%;
+  width: 50%;
   max-width: 100%;
   margin-bottom: 20px; }
   .table > thead > tr > th,
@@ -6101,7 +6101,7 @@ body {
       margin-bottom: 10px; }
 
 .fa-star, .fa-star-o {
-  color: #fff;
+  color: #ffaa00;
   font-size: 25px !important;
   margin-bottom: 5px; }
 
@@ -6283,10 +6283,10 @@ body {
       color: #dcdcdc; }
 
 .map iframe {
-  width: 640px;
-  height: 480px;
+  width: 900px;
+  height: 600px;
   display: block;
-  margin: 0 auto; }
+  margin: center; }
 
 #Biggest {
   background-size: cover;
@@ -6541,8 +6541,20 @@ footer {
 .grey {
   color: grey; }
 
+.black {
+ color: black; } 
+
 .brown {
-  color: brown; }
+  color: brown; } 
+
+.goldenrod {
+color: goldenrod; }
+
+.lightblue{
+color: lightblue; }
+
+.pink{
+color: pink; }
 
 .green {
   color: green; }
@@ -6551,7 +6563,7 @@ footer {
   font-weight: 600; }
 
 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
-  border: 1px solid #fefcfe; }
+  border: 1px solid black; }
 
 .ad {
   height: 400px;
