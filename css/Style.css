@@ -2094,7 +2094,7 @@ th {
   text-align: left; }
 
 .table {
-  width: 50%;
+  width: 100%;
   max-width: 100%;
   margin-bottom: 20px; }
   .table > thead > tr > th,
@@ -5905,8 +5905,35 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   border: 0px solid transparent; }
-  .custom-nav .cust-logo img {
-    max-width: 100%; }
+  .custom-nav .cust-logo {
+    position: absolute;
+    /*img {
+            vertical-align: top;
+            display: inline-block;
+            max-width: 100%;
+            line-height: 35px;
+            padding-top: 2px;
+        }*/ }
+    .custom-nav .cust-logo span {
+      display: inline-block;
+      color: #DFDFDF;
+      text-transform: uppercase;
+      /*font-weight: bold;*/
+      font-size: 52px;
+      line-height: 35px;
+      background-repeat: no-repeat;
+      letter-spacing: -4px;
+      padding-right: 40px; }
+    .custom-nav .cust-logo span.Brand {
+      background-image: url("../img/logo-noactive.png");
+      height: 35px;
+      width: 35px; }
+  .custom-nav .cust-logo:hover {
+    text-decoration: none; }
+    .custom-nav .cust-logo:hover span {
+      color: #fff; }
+    .custom-nav .cust-logo:hover span.Brand {
+      background-image: url("../img/logo.png"); }
   .custom-nav a {
     margin-bottom: 0; }
   .custom-nav .nav > li > a {
@@ -6286,7 +6313,7 @@ body {
   width: 900px;
   height: 600px;
   display: block;
-  margin: center; }
+  margin: 0 auto; }
 
 #Biggest {
   background-size: cover;
@@ -6505,7 +6532,7 @@ footer {
 .blog .section {
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("../blog/1/blog-background.jpg"); }
+  background-image: url("../blog/blog-background.jpg"); }
 
 .blog #section-a-1 h2 {
   font-weight: 700; }
@@ -6541,29 +6568,37 @@ footer {
 .grey {
   color: grey; }
 
-.black {
- color: black; } 
-
 .brown {
-  color: brown; } 
+  color: brown; }
 
-.goldenrod {
-color: goldenrod; }
-
-.lightblue{
-color: lightblue; }
-
-.pink{
-color: pink; }
+.blue {
+  color: darkblue; }
 
 .green {
   color: green; }
 
+.white {
+  color: white; }
+
+.table {
+  width: 50%; }
+
 .bold {
   font-weight: 600; }
 
+.stroke {
+  font: 1em 'OpenSans-Regular', sans-serif;
+  text-shadow: black 0 0 15px;
+  color: white; }
+
+.text-bottom {
+  position: absolute;
+  bottom: 0.8em;
+  font-size: 200%;
+  color: white; }
+
 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
-  border: 1px solid black; }
+  border: 1px solid #000; }
 
 .ad {
   height: 400px;
@@ -6587,6 +6622,39 @@ h3.media-heading {
   text-align: justify;
   font-size: 18px;
   font-weight: bold; }
+
+.text-about-right, .text-about-left {
+  vertical-align: middle;
+  display: flex; }
+  .text-about-right div, .text-about-left div {
+    margin: auto 0;
+    padding-bottom: 40px;
+    background: gray;
+    background: -moz-radial-gradient(center, ellipse cover, gray 0%, gray 0%, rgba(219, 219, 219, 0) 72%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, gray), color-stop(0%, gray), color-stop(72%, rgba(219, 219, 219, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-radial-gradient(center, ellipse cover, gray 0%, gray 0%, rgba(219, 219, 219, 0) 72%, rgba(255, 255, 255, 0) 100%);
+    background: -o-radial-gradient(center, ellipse cover, gray 0%, gray 0%, rgba(219, 219, 219, 0) 72%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, gray 0%, gray 0%, rgba(219, 219, 219, 0) 72%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(ellipse at center, gray 0%, gray 0%, rgba(219, 219, 219, 0) 72%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#ffffff', GradientType=1 ); }
+
+.text-about-wrapper {
+  display: flex;
+  align-items: stretch; }
+
+.text-about-right div {
+  width: 100%;
+  text-align: right; }
+
+.about-name {
+  text-align: center; }
+  .about-name img {
+    width: 100%;
+    max-width: 200px; }
+  .about-name span {
+    display: block;
+    font-size: 32px;
+    color: #fff; }
 
 /*Text decorations end*/
 @media (max-width: 991px) {
