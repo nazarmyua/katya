@@ -972,6 +972,10 @@ footer {
     color: grey;
 }
 
+.black {
+    color: black;
+}
+
 .brown {
     color: brown;
 }
@@ -980,13 +984,31 @@ footer {
     color: darkblue;
 }
 
+.goldenrod {
+    color: goldenrod;
+}
+
 .green {
     color: green;
+}
+
+.lightblue {
+    color: lightblue;
 }
 
 .white {
     color: white;
 }
+
+.pink {
+    color: pink;
+}
+
+
+.green {
+    color: green;
+}
+
 
 .table {
     width: 50%;
@@ -1049,18 +1071,13 @@ h3.media-heading {
 
     div {
         margin: auto 0;
-        padding-bottom:40px;
-
-        
-background: rgba(128,128,128,1);
-background: -moz-radial-gradient(center, ellipse cover, rgba(128,128,128,1) 0%, rgba(128,128,128,1) 0%, rgba(219,219,219,0) 72%, rgba(255,255,255,0) 100%);
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(128,128,128,1)), color-stop(0%, rgba(128,128,128,1)), color-stop(72%, rgba(219,219,219,0)), color-stop(100%, rgba(255,255,255,0)));
-background: -webkit-radial-gradient(center, ellipse cover, rgba(128,128,128,1) 0%, rgba(128,128,128,1) 0%, rgba(219,219,219,0) 72%, rgba(255,255,255,0) 100%);
-background: -o-radial-gradient(center, ellipse cover, rgba(128,128,128,1) 0%, rgba(128,128,128,1) 0%, rgba(219,219,219,0) 72%, rgba(255,255,255,0) 100%);
-background: -ms-radial-gradient(center, ellipse cover, rgba(128,128,128,1) 0%, rgba(128,128,128,1) 0%, rgba(219,219,219,0) 72%, rgba(255,255,255,0) 100%);
-background: radial-gradient(ellipse at center, rgba(128,128,128,1) 0%, rgba(128,128,128,1) 0%, rgba(219,219,219,0) 72%, rgba(255,255,255,0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#ffffff', GradientType=1 );
-
+        text-align: center;
+        padding: 35px 20px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dcdcdc+0,dcdcdc+70,ffffff+100&0.49+0,0.22+70,0+100 */
+        background: -moz-radial-gradient(center, ellipse cover, rgba(220,220,220,0.49) 0%, rgba(220,220,220,0.22) 70%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(220,220,220,0.49) 0%,rgba(220,220,220,0.22) 70%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, rgba(220,220,220,0.49) 0%,rgba(220,220,220,0.22) 70%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ddcdcdc', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
 }
 
@@ -1068,11 +1085,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', end
 .text-about-wrapper {
     display: flex;
     align-items: stretch;
-}
+    }
 
-.text-about-right div {
-    width:100%;
-    text-align:right;
+.text-about-right {
+    justify-content:flex-end;
 }
 
 .about-name {
