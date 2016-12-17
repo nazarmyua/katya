@@ -1105,6 +1105,12 @@ h3.media-heading {
         color: #fff;
     }
 }
+.quote {
+    font: 1em 'NexaRustSans-Black';
+    font-size: 180%;
+    text-shadow: black 0 0 15px;
+    color: white;
+}
 
 /*Text decorations end*/
 @import "_media.scss";
