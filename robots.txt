@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: */sitemap.xml
+
+Host: http://marathonized.com/
+Sitemap: http://marathonized.com/sitemap.xml

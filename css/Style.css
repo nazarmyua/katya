@@ -6606,6 +6606,12 @@ footer {
   text-shadow: black 0 0 15px;
   color: white; }
 
+  .quote {
+  font: 1em 'NexaRustSans-Black';
+  font-size: 180%;
+  text-shadow: black 0 0 15px;
+  color: white; }
+
 .text-bottom {
   position: absolute;
   bottom: 0.8em;
