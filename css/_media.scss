@@ -19,8 +19,9 @@
     .main-page #section2 {
         padding-left: 15px;
         padding-right: 15px;}
-    .navbar-toggle{
-        margin-top:0;
+    .navbar-toggle {
+        background-color: #fff;
+        margin-top: 0;
     }
     .custom-nav {
         background-color: #f8f8f8;
@@ -29,14 +30,24 @@
     }
     .custom-nav .nav > li > a:hover, .custom-nav .nav > li > a:focus, .custom-nav .nav > li > a:active {
         color: #808080;
+        
         background-color: transparent;
     }
-
-    .custom-nav .nav > li.active > a {
+    .custom-nav .nav > li > a {
+        font-weight: bold;
+    }
+     .custom-nav .nav > li.active > a {
         color: #808080;
+        font-weight: bold;
     }
     #fullpage{
         margin-top:50px;
+    }
+    .stroke{
+        font-size:0.6em;
+    }
+    #Marathon .intro p a.social i{
+        color:#fff;
     }
 }
 
