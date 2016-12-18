@@ -6084,7 +6084,7 @@ body {
       padding-left: 10px;
       font-size: 18px; }
   .owlCarouselWraper div.item:hover .overlay {
-    opacity: 1;
+    opacity: 1 !important;
     background-color: rgba(0, 0, 0, 0.5); }
     .owlCarouselWraper div.item:hover .overlay img {
       opacity: 1; }
@@ -6701,6 +6701,10 @@ h3.media-heading {
     background-color: #f8f8f8;
     border-color: #e7e7e7;
     padding-bottom: 0; }
+    .custom-nav .container {
+      padding: 0; }
+    .custom-nav .cust-logo {
+      padding-left: 10px; }
   .custom-nav .nav > li > a:hover, .custom-nav .nav > li > a:focus, .custom-nav .nav > li > a:active {
     color: #808080;
     background-color: transparent; }
@@ -6714,7 +6718,13 @@ h3.media-heading {
   .stroke {
     font-size: 0.6em; }
   #Marathon .intro p a.social i {
-    color: #fff; } }
+    color: #fff; }
+  .owlCarouselWraper .owl-carousel div.item .overlay {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*img {
+                    opacity: 1;
+                }*/ } }
 
 @media (max-width: 479px) {
   .main-page #section1 {
