@@ -26,7 +26,15 @@
     .custom-nav {
         background-color: #f8f8f8;
         border-color: #e7e7e7;
-        padding-bottom:0;
+        padding-bottom: 0;
+
+        .container {
+            padding: 0;
+        }
+
+        .cust-logo{
+            padding-left:10px;
+        }
     }
     .custom-nav .nav > li > a:hover, .custom-nav .nav > li > a:focus, .custom-nav .nav > li > a:active {
         color: #808080;
@@ -48,6 +56,18 @@
     }
     #Marathon .intro p a.social i{
         color:#fff;
+    }
+    .owlCarouselWraper {
+        .owl-carousel{ div.item {
+            .overlay {
+                opacity: 1;
+                background-color: rgba(0,0,0,.5);
+
+                /*img {
+                    opacity: 1;
+                }*/
+            }
+        }}
     }
 }
 
